@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/67794">
+    <pgterms:marc907>hu</pgterms:marc907>
+    <pgterms:marc905>20220402020236jsika</pgterms:marc905>
+    <dcterms:title>A csehek Magyarországban (2. kötet): Korrajz első Mátyás király idejéből</dcterms:title>
+    <pgterms:marc906>1905</pgterms:marc906>
+    <pgterms:marc508>Albert László from page images generously made available by the Internet Archive</pgterms:marc508>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nff0e091d05ee4af9a81e6b6f415ecdba">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">hu</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/38140">
+        <pgterms:alias>Jósika, Nikolas, Baron</pgterms:alias>
+        <pgterms:alias>Jósika, Nicolas, báró</pgterms:alias>
+        <pgterms:name>Jósika, Miklós, báró</pgterms:name>
+        <pgterms:alias>Jósika, Nikolaus, báró</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1865</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://hu.wikipedia.org/wiki/J%C3%B3sika_Mikl%C3%B3s"/>
+        <pgterms:alias>Josika, Miklos, baro</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:marc260>Hungary :Franklin,1905.</pgterms:marc260>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67794/67794-h/67794-h.htm">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0cb12d2f555b4df9ba97bacaa92b49df">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">622633</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T18:35:33</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/67794"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67794/67794-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N78aeefe65b8d47cbbd4a62bbd4213059">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T18:35:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8c69eaa5c99043dfbaac57fea778088d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/67794"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221840</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/26008">
+        <pgterms:alias>Kálmán Mikszáth</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://hu.wikipedia.org/wiki/Mikszáth_Kálmán_(író)"/>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/K%C3%A1lm%C3%A1n_Miksz%C3%A1th"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1910</pgterms:deathdate>
+        <pgterms:alias>Mikszath, Kalman</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1847</pgterms:birthdate>
+        <pgterms:name>Mikszáth, Kálmán</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-07</dcterms:issued>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/54460">
+        <pgterms:name>Kimnach, László</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ill>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67794/67794-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/67794"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T18:35:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">554180</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5933b039f3fc45c1b4ce870a28c17072">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67794/67794-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1803371</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1a04df091e7a4c1b95b135d1e663013a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N114be2a64b7b4e47a5e2b729af6dbf24">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T18:35:35</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/67794"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:license rdf:resource="license"/>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
+  <rdf:Description rdf:about="https://hu.wikipedia.org/wiki/Mikszáth_Kálmán_(író)">
+    <dcterms:description>hu.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/K%C3%A1lm%C3%A1n_Miksz%C3%A1th">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hu.wikipedia.org/wiki/J%C3%B3sika_Mikl%C3%B3s">
+    <dcterms:description>hu.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
