@@ -17,6 +17,9 @@ contributor:
     agent_name: Kimnach, László
     gutenberg_agent_id: '54460'
     url: http://www.gutenberg.org/2009/agents/54460
+covers:
+- cover_type: archival
+  image_path: 67794-h/images/cover.jpg
 creator:
   author:
     agent_name: Jósika, Miklós, báró
@@ -30,6 +33,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/38140
     wikipedia: http://hu.wikipedia.org/wiki/J%C3%B3sika_Mikl%C3%B3s
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/67794#A-csehek-Magyarorszagban-2-kotet-Korrajz-elso-Matyas-kiraly-idejebol
 gutenberg_issued: '2022-04-07'
 identifiers:
   gutenberg: '67794'
